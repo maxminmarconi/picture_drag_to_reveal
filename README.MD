@@ -14,3 +14,28 @@
 ## 使用方法
 
 1. 引入文件 
+- 将 `styles.css`、`script.js` 和 `index.html` 文件放在同一目录下
+- 替换 `Helicopter.jpg` 和 `HelicopterOverlay.jpg` 为你想要对比的两张图片
+- 在浏览器中打开 `index.html` 文件即可使用
+
+## 技术实现
+
+- 使用 HTML5 的 clip-path 属性实现图片裁切效果
+- JavaScript 实现拖拽交互
+- CSS3 实现平滑过渡动画
+- 响应式布局确保在不同设备上的良好体验
+
+## 浏览器兼容性
+
+- Chrome 55+
+- Firefox 54+
+- Safari 11+
+- Edge 79+
+- iOS Safari 11+
+- Android Chrome 55+
+
+## 注意事项
+
+- 建议使用相同尺寸的图片以获得最佳效果
+- 图片大小建议控制在合理范围内以保证加载性能
+- 触摸设备上需要禁用页面缩放以获得最佳体验
